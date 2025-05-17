@@ -4,27 +4,21 @@
     align-items: center;
     text-align: center;
     min-height: 100vh;
-    /* background-color: rgb(22, 31, 28); */
 }
 
 .text-box {
-    padding: 10px 30px;
-    background-color: rgba(22, 25, 16, 0.763);
+    padding: 15px 25px;
+    background-color: rgba(23, 23, 23, 0.763);
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(186, 114, 114, 0.1);
+    box-shadow: 0 5px 8px rgba(127, 127, 127, 0.748);
     font-size: 1.5em;
     text-align: center;
 }
 
-h1 {
-    font-family: "Geneva", Verdana, sans-serif;
-    color: rgb(159, 96, 91);
-}
-
 body {
     font-family: "Helvetica", monospace;
-    color: rgba(238, 244, 228, 0.612);
-    background-image: url('IMG_6939.JPG');
+    color: rgba(238, 244, 228, 0.968);
+    background-color: rgb(45, 45, 45);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
