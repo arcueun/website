@@ -9,19 +9,13 @@
 }
 
 .text-name {
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 100;
     font-size: 60px;
-    font-style: normal;
 }
 
 .text-bio {
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-size: 25px;
-    font-style: normal;
 }
 
 .text-box {
@@ -30,12 +24,13 @@
     border-radius: 15px;
     box-shadow: 0 4px 4px rgba(127, 127, 127, 0.601);
     font-size: 20px;
-    text-align: center;
 }
 
 body {
-    font-family: "Helvetica", monospace;
+    font-family: "Exo 2", sans-serif;
     color: rgba(238, 244, 228, 0.968);
+    font-optical-sizing: auto;
+    font-style: normal;
     background-color: rgb(45, 45, 45);
     background-repeat: no-repeat;
     background-attachment: fixed;
