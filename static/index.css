@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100..300&display=swap");
+
+:root {
+    --dark-bg: rgba(22, 25, 16, 0.763);
+    --dark-text: rgba(238, 244, 228, 0.612);
+    --dark-bg-shadow: rgba(186, 114, 114, 0.1);
+}
+
+.center {
+    display: flex;
+    flex-direction: column; /* makes things stack vertically */
+    justify-content: center; /* move things to middle of screen */
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+* {
+    transition: 0.3s;
+    hyphens: auto;
+}
+
+.text-bio {
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.text-name {
+    padding: 25px; 
+    font-weight: 100;
+    font-size: 60px;
+}
+
+a {
+    padding: 5px;
+    margin: 1em 0;
+    color:rgba(238, 244, 228, 0.968);
+    text-decoration: none;
+}
+
+/* this needs fixing idk why the background doesn't appear like i want it to  */
+.link-table {
+    background-color: rgba(23, 23, 23, 0.763);
+    box-shadow: 0 4px 4px rgba(127, 127, 127, 0.744);
+    border-radius: 5px;
+    
+}
+
+body {
+    font-family: "Exo 2", sans-serif;
+    color: rgba(238, 244, 228, 0.968);
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: rgb(45, 45, 45);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+  
