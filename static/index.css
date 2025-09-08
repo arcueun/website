@@ -16,11 +16,12 @@
 
 .text-bio {
     font-weight: 200;
+    padding: 5px; 
     font-size: 25px;
 }
 
 .text-name {
-    padding: 25px; 
+    padding-bottom: 50px;
     font-weight: 100;
     font-size: 60px;
 }
