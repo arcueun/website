@@ -26,28 +26,37 @@
     font-size: 60px;
 }
 
-a {
+.social-icon {
     padding: 5px;
     margin: 1em 0;
     color:rgba(238, 244, 228, 0.968);
     text-decoration: none;
 }
 
-.link-table {
-    background-color: rgba(23, 23, 23, 0.763);
-    box-shadow: 0 4px 4px rgba(127, 127, 127, 0.744);
-    border-radius: 5px;
-    
+body.light-mode .social-icon {
+    color: rgb(45, 45, 45);
 }
 
-body {
+.link-table {
+    color: rgba(23, 23, 23, 0.763);
+    box-shadow: 0 4px 4px rgba(127, 127, 127, 0.744);
+    border-radius: 5px;
+}
+
+body { 
+    /* default to dark mode */
     font-family: "Exo 2", sans-serif;
     color: rgba(238, 244, 228, 0.968);
+    background-color: rgb(45, 45, 45);
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: rgb(45, 45, 45);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
+}
+
+.light-mode {
+    background-color: rgba(238, 244, 228, 0.968);
+    color: rgb(45, 45, 45);
 }
