@@ -33,6 +33,7 @@
     text-decoration: none;
 }
 
+/* applies .light-mode to .social-icon, overriding old color: property */
 body.light-mode .social-icon {
     color: rgb(45, 45, 45);
 }
