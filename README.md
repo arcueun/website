@@ -5,4 +5,11 @@ Inspired by other people's personal websites, I decided to make my own- making a
 
 access it [here](https://arcueun.github.io/website/)
 
-nb: I've decided to leave my comments inside as a guide for me because I was learning about html/css/js. quite useful! 
+nb: I've decided to leave my comments inside as a guide for me because I was learning about html/css/js. quite useful!
+ 
+todo i want to add to this page 
+- dark/light theme 
+- add header with buttons (maybe blog, cv, etc)
+- http req support? i'd have to move to vercel
+- visual hover effect 
+- a blog page so u can see each title, click it and it expands to show full text 
