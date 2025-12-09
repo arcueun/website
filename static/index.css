@@ -44,7 +44,7 @@ body.light-mode .social-icon {
     border-radius: 5px;
 }
 
-.hidden-button {
+body.hidden-button {
     border: none;
     background-color: var(background-color);
 }
