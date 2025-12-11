@@ -11,3 +11,5 @@ todo i want to add to this page
 - http req support? i'd have to move to vercel
 - visual hover effect 
 - a blog page so u can see each title, click it and it expands to show full text 
+
+omg today i learned what tailwind CSS and react js is. I am literally running myself into the wall lol, time to learn new things! 
