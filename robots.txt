@@ -1,6 +1,0 @@
-# hiii welcome to my website 
-# billyness!  
-# I could put the whole bible here if i wanted to... 
-
-User-agent: * 
-Allow:/ 
