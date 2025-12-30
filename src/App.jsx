@@ -13,6 +13,7 @@ const SOCIAL_LINKS = [
 function App() {
   return (
     <>
+    {/* i love Jesus! */}
       <div className='center'>
           <div className='text-name'>arcueun</div>
           <div className='text-bio'>hi, i'm marcus.</div>
