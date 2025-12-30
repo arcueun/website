@@ -1,16 +1,16 @@
-# React + Vite
+# personal website! 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the repository for my website. 
+Inspired by other people's personal websites, I decided to make my own- making a website would be a great place to learn some frontend, and perhaps deployment or webhosting experience if i get a custom domain and move from git.
 
-Currently, two official plugins are available:
+access it [here](https://arcueun.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# tech stack 
+- React
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+todo i want to add to this page 
+- dark/light theme 
+- add header with buttons (maybe blog, cv, etc)
+- http req support? i'd have to move to vercel
+- visual hover effect 
+- a blog page so u can see each title, click it and it expands to show full text 
