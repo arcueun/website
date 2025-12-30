@@ -1,33 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './css/App.css'
+import SocialLink from './components/SocialLink'
+import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+const SOCIAL_LINKS = [
+  { href: "https://github.com/arcueun", icon: faGithub },
+  { href: "mailto:arcueun@gmail.com", icon: faEnvelope },
+  { href: "https://www.linkedin.com/in/marcusbc/", icon: faLinkedin },
+  { href: "https://www.instagram.com/arcueun/", icon: faInstagram },
+];
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className='center'>
+          <div className='text-name'>arcueun</div>
+          <div className='text-bio'>hi, i'm marcus.</div>
+          <div className='text-bio'>i love Jesus, computer networks and security engineering.</div>
+
+          <div id='link-table'>
+             {SOCIAL_LINKS.map((link, index) => (
+                <SocialLink 
+                  key={index} 
+                  href={link.href} 
+                  icon={link.icon} 
+                />
+              ))}
+          </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
