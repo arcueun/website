@@ -5,13 +5,18 @@ Inspired by other people's personal websites, I decided to make my own- making a
 
 access it [here](https://arcueun.vercel.app)
 
+If you ever wanted to run locally, do 
+```bash
+npm install # for packages
+
+npm run dev # start local server
+```
+
 # tech stack 
 - React
 
-# TODO 
-- dark/light theme 
-- add header with buttons (maybe blog, cv, etc)
-- http req support? i'd have to move to vercel
-- visual hover effect 
-- a blog page so u can see each title, click it and it expands to show full text 
-- more... 
+# Road Map  
+- [ ] dark/light theme 
+- [ ] add header with buttons (maybe blog, cv, etc)
+- [ ] http req support? i'd have to move to vercel
+- [ ] a blog page so u can see each title, click it and it expands to show full text 
