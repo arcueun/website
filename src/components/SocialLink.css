@@ -1,0 +1,18 @@
+.link-table {
+    background-color: rgba(23, 23, 23, 0.763);
+    border-radius: 25px;
+    padding: 25px;
+    margin-top: 3%;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.social-icon {
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 8px;
+}

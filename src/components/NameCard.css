@@ -1,0 +1,13 @@
+.text-name {
+    text-align: left;
+    padding-bottom: 50px;
+    font-weight: 100;
+    font-size: 60px;
+}
+
+.text-bio {
+    align-items: left;
+    font-weight: 200;
+    padding: 5px;
+    font-size: 25px;
+}
