@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import './SocialLink.css'
 
 const SOCIAL_LINKS = [
   { href: "https://github.com/arcueun", icon: faGithub },
@@ -10,15 +11,8 @@ const SOCIAL_LINKS = [
 ];
 
 function SocialLink() {
-  const socialStyle = {
-    backgroundColor: "rgba(23, 23, 23, 0.763)",
-    borderRadius: "25px",
-    padding: "25px",
-    marginTop: "3%",
-  }
-
     return (
-        <div style={socialStyle}>
+        <div className='link-table'>
           {SOCIAL_LINKS.map(({ href, icon }) => (
             <a
               key={href}

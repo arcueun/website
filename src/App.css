@@ -1,0 +1,8 @@
+.center {
+    display: flex;
+    flex-direction: column; /* makes things stack vertically */
+    justify-content: center; /* move things to middle of screen */
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}

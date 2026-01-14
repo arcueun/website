@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 40px;
+  background: rgba(23, 23, 23, 0.763);
+  color: white;
+  font-size: 30px;
+  font-weight: 100; /* thinner header text */
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.nameTitle {
+  padding-left: 0.5rem;
+  text-align: left;
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.sectionList {
+  gap: 18px;
+  align-items: center;
+  display: flex;
+  padding-right: 0;
+}
+
+.sectionList a {
+  color: inherit;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.sectionList a:hover {
+  background: rgba(255,255,255,0.06);
+  outline: none;
+}
+
+@media (max-width: 640px) {
+  .header {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    text-align: center;
+  }
+  .sectionList {
+    justify-content: center;
+  }
+}
