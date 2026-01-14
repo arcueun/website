@@ -9,13 +9,19 @@ const SOCIAL_LINKS = [
   { href: "https://www.instagram.com/arcueun/", icon: faInstagram },
 ];
 
-
 function SocialLink() {
+  const socialStyle = {
+    backgroundColor: "rgba(23, 23, 23, 0.763)",
+    borderRadius: "25px",
+    padding: "25px",
+    marginTop: "3%",
+  }
+
     return (
-        <>
-          {SOCIAL_LINKS.map(({ href, icon }, index) => (
+        <div style={socialStyle}>
+          {SOCIAL_LINKS.map(({ href, icon }) => (
             <a
-              key={index}
+              key={href}
               href={href}
               target="_blank"
               rel="noopener noreferrer"
@@ -24,7 +30,7 @@ function SocialLink() {
               <FontAwesomeIcon icon={icon} size="2x" />
             </a>
           ))}
-        </>
+        </div>
     );
 }
 
