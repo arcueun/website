@@ -9,7 +9,7 @@ function Header() {
             <nav className='sectionList' role='navigation' aria-label='Main navigation'>
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+                <a href="#contact">Blog</a>
             </nav>
         </header>
     )
